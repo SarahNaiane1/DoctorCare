@@ -8,7 +8,7 @@
 :root {
   --hue: 290;
   --primary-color: hsl(var(--hue), 100%, 26%);
-  --headline: hsl(210, 11%, 15%);
+  --headline: hsl(240, 3%, 7%);
   --paragraph: hsl(210, 9%, 31%);
 
   --brand-beige: hsl(39, 100%, 97%);
@@ -292,7 +292,7 @@ body.menu-expanded button path {
 #home::before {
   content: '';
   width: 100%;
-  height: calc(108rem + var(--nav-height));
+  height: calc(145rem + var(--nav-height));
   background-color: var(--brand-light);
   display: block;
 
